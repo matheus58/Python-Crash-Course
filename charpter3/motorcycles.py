@@ -3,10 +3,12 @@ motorcycles = ['honda','yamaha', 'suzuki']
 
 #ADICIONAR ELEMENTOS NA LISTA 
 def adicionando_usando_APPEND(lista,adicionado):
-    lista.append(adicionado);#o append adiciona o elemento no final da lista
+    #o append adiciona o elemento no final da lista
+    lista.append(adicionado);
 
 def adicionando_usando_INSERT(lista,adicionado,indice):
-    lista.insert(indice,adicionado);#o insert pode inserir o elemento em qualquer lugar da lista que voce desejar
+    #o insert pode inserir o elemento em qualquer lugar da lista que voce desejar
+    lista.insert(indice,adicionado);
 
 motorcycles[0]='ducati'#adicionando pelo indice
 
